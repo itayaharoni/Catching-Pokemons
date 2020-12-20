@@ -167,6 +167,10 @@ object, that way it how to draw the graph, the current location of agents and st
 information about the agent values in the game.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This is a result table of our code, if you think you can do better then you are more then welcome to try!
+
+![ResultTable](https://user-images.githubusercontent.com/74153075/102724205-add9b680-4316-11eb-93de-95bc189ec732.jpeg)
+
 
 In case you are intersted in more detailed information about the project, and the implementation of the mentioned above method you can enter our wiki page.
 You can always contact us for more information or updates through our github profile, we hope this page was helpful to you!
