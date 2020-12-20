@@ -2,11 +2,17 @@
 ## Introduction
 
 Structure of the project:
+
 data directory - contains 6 files, of a directed weighted graphs in json format. Those graphs are used as maps in the pokemon game.
+
 doc directory - contains javadoc files of the project.
+
 libs directory - contains all the libraries necessary to the project. 
+
 test directory - contains tests for most of the classes in the project.
+
 src directory - contains the classes and interfaces of the project.
+
 Ex2.jar file - an executable file that runs the pokemon game.
 
 This project consists of two parts:
@@ -28,21 +34,36 @@ This project consists of two parts:
 ## Table of contents
 
 Part 1:
+
 1) NodeData  
+
 2) EdgeData 
+
 3) GeoLocation 
+
 4) DWGraph_DS
+
 5) DWGraph_Algo
 
+
 Part 2:
+
 6) Point 3D
+
 7) Range
+
 8) Range2D
+
 9) Range2Range
+
 10) MyAgent
+
 11) MyPokemon
+
 12) MyArena
+
 13) MyLabel & MyLabelError
+
 14) MyGui & MyPanel
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
