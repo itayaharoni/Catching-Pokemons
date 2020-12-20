@@ -7,6 +7,8 @@ import org.json.JSONObject;
 import java.awt.event.WindowEvent;
 import java.util.Iterator;
 import java.util.List;
+
+import static java.lang.System.exit;
 import static java.lang.Thread.sleep;
 /**
  * This class is an executable main that runs the pokemon game.
@@ -48,7 +50,7 @@ public class Ex2 implements Runnable {
                 id = Long.parseLong(arg[0]);
                 level = Integer.parseInt(arg[1]);
             } catch (Exception error) {
-                error.printStackTrace();
+                exit(1);
             }
             game = Game_Server_Ex2.getServer(level);
             game.login(id);
@@ -133,7 +135,6 @@ public class Ex2 implements Runnable {
                 e.printStackTrace();
             }
         }
-        System.out.println(game);
         win.dispatchEvent(new WindowEvent(win, WindowEvent.WINDOW_CLOSING));
     }
     /**
