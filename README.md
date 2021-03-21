@@ -1,4 +1,4 @@
-# Ex2
+# Catching Pokemons
 ## Introduction
 
 Structure of the project:
